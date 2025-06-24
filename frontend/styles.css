@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(to bottom, #87CEEB, #FFD700);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"%3E%3Cpath fill="%23FFD700" fill-opacity="0.3" d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,85.3C960,85,1056,75,1152,74.7C1248,75,1344,85,1392,90.7L1440,96V320H1392C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320H0Z"%3E%3C/path%3E%3C/svg%3E');
+  background-size: cover;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #FF4500;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #006400;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid #20B2AA;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#add-product {
+  background-color: #FF69B4;
+}
+
+#confirm {
+  background-color: #32CD32;
+}
+
+.hidden {
+  display: none;
+}
+
+#reservations-list {
+  margin-top: 20px;
+  color: #8A2BE2;
+}
+
+.reservation {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #E6F3FA;
+}
